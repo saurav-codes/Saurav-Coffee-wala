@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-family:Helvetica,Arial, sans-serif;
+}
+header{
+    height: 101px;
+    box-shadow: 0 1px 3px rgb(0 0 0/10%),0 0 2px rgb(0 0 0/7%);
+    
+}
+.header-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.logo-container{
+    height: 60px;
+    width: 60px;
+    
+}
+.logo-container img{
+    max-height: 100%;
+    max-width:100%;
+
+}
+.left-nav nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    display: flex;
+    
+}
+.left-nav nav ul li{
+    padding-left: 18px;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.left-nav nav ul li:hover{
+    color: chartreuse;
+    font-size: 18px;
+    transition: all .2s ease;
+}
+.right-nav{
+    display: flex;
+}
+.find-store{
+    display: flex;
+    align-items: center;
+    margin-right: 34px;
+}
+.find-store img{
+    height: 50px;
+    width: 50px;
+}
+.find-store span{
+    font-family: Helvetica,Arial, sans-serif;
+    font-weight: 600;
+}
+.find-store span:hover{
+    color: tomato;
+    cursor: pointer;
+    transition: all .2s ease;
+    font-size: 18px;
+}
+.signin, .join-now{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+.signin i, .join-now i{
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.signin i:hover, .join-now i:hover{
+    color: rgb(255, 255, 0);
+    background-color: black;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.join-now i{
+    background-color: black;
+    color: white;
+}
