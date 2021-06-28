@@ -1,5 +1,5 @@
 # Saurav-Coffee-wala
-This is a Coffee shop Website built with HTML & CSS Only
+This is a Coffee shop Landing Page built with HTML & CSS Only
 
 * This Website is Hosted at https://sauravsharmaz.github.io/Saurav-Coffee-wala/
 
