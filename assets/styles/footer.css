@@ -1,0 +1,84 @@
+footer{
+    background-color: rgb(233, 233, 233);
+    height: 400px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+}
+.footer-container{
+    height: 100%;
+    width: 100%;
+}
+.footer-top{
+    display: flex;
+    height: 28%;
+    align-items: center;
+    background-color: rgb(214, 209, 209);
+    margin-bottom: 2px;
+}
+.footer-top i{
+    margin-left: 23px;
+    color: black;
+    font-size: 48px;
+}
+.footer-top i:first-child{
+    margin-left: 10%;
+}
+.footer-top i:hover{
+    color: darkslategrey;
+    font-size: 60px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.footer-main{
+    height: 45%;
+    display: flex;
+    margin-left: 10%;
+}
+.footer-main .section{
+    width: 25%;
+}
+.footer-main .section ul{
+    list-style-type: none;
+    display: contents;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}
+.footer-main .section ul li{
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    font-size: 96%;
+    font-weight: 800;
+    color: rgb(52, 53, 52);
+    margin-bottom: 7%;
+}
+.footer-main .section ul li:hover{
+    font-size: 100%;
+    color: rgb(6, 29, 6);
+    transition: all .2s ease;
+    cursor: pointer;
+}
+.footer-main .section h3:hover{
+    cursor: pointer;
+    font-size: 125%;
+    transition: all .2s ease;
+}
+.footer-bottom{
+    margin-left: 10%;
+}
+.footer-bottom .formals{
+    display: flex;
+    justify-content: center;
+}
+.footer-bottom .formals p{
+    margin-left: 2%;
+    color: rgb(52, 53, 52);
+}
+.footer-bottom .formals p:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    transition: all .2s ease;
+}
+.footer-bottom .formals h3{
+    margin-left: 3 40%;
+}
